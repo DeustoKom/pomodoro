@@ -3,13 +3,14 @@
 @import 'lib/common.css';
 @import 'lib/skeleton.css';
 @import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 body,
 html {
   height: 100%;
 }
 body {
-  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-family: Archivo, Inter, Helvetica, Arial, sans-serif;
   color: #888888;
   font-size: 100%;
   line-height: 200%;
@@ -58,18 +59,18 @@ ul.panels li.panel {
 
 /*ul.panels li.panel.panel_1*/body {
 background: rgb(38,41,46);
-background-image: url('../images/deustokom_logo_bgwhite.png');
-background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
-background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
-background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background-image: url('../images/deusto_logo_bgwhite.png');
+background: url('../images/deusto_logo_bgwhite.png') no-repeat right bottom, -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: url('../images/deusto_logo_bgwhite.png') no-repeat right bottom, -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: url('../images/deusto_logo_bgwhite.png') no-repeat right bottom, linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endColorstr="#4c566a",GradientType=1);
 }
 
 /* Change backgrounds */
 
-body.bgFocus { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #bf616a;  }
-body.bgSbreak { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #DAAD54; }
-body.bgLbreak { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #007760; }
+body.bgFocus { background: /*url('../images/deusto_logo_bgwhite.png') no-repeat right bottom,*/ #bf616a;  }
+body.bgSbreak { background: /*url('../images/deusto_logo_bgwhite.png') no-repeat right bottom,*/ #DAAD54; }
+body.bgLbreak { background: /*url('../images/deusto_logo_bgwhite.png') no-repeat right bottom,*/ #007760; }
 
 body.bgFocus #focusSigns {display:block;}
 body.bgFocus #signsplaceholder {display:none;}
@@ -101,7 +102,7 @@ ul.panels li.panel.panel_1 div.header {
 
 ul.panels li.panel.panel_1 div.header h1.logo {
 
-  font: bold italic 29px/29px Inter, 'Source Sans Pro', sans-serif;
+  font: bold italic 29px/29px Archivo, Inter, 'Source Sans Pro', sans-serif;
   border: 0px solid white;
   padding: 0 10px;
   float: left;
@@ -144,13 +145,13 @@ ul.panels li.panel.panel_1 div.header ul li a.mail {
   background: url('../images/sprite.png') 0 -140px no-repeat;
 }
 ul.panels li.panel.panel_1 h3 {
-  font: 600 34px/50px Inter, 'Source Sans Pro', sans-serif;
+  font: 600 34px/50px Archivo, Inter, 'Source Sans Pro', sans-serif;
   text-align: center;
   color: white;
 }
 ul.panels li.panel.panel_1 div.timer {
   color: white;
-  font-family: Inter, 'Source Sans Pro', sans-serif;
+  font-family: Archivo, Inter, 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 20em;
   line-height: 1.2em;
@@ -190,7 +191,7 @@ ul.panels li.panel.panel_1 div.subscribe {
   padding: 40px 0;
 }
 ul.panels li.panel.panel_1 div.subscribe h3 {
-  font: 400 24px/29px Inter, 'Source Sans Pro', sans-serif;
+  font: 400 24px/29px Archivo, Inter, 'Source Sans Pro', sans-serif;
   text-align: center;
   color: white;
 }
@@ -263,7 +264,7 @@ ul.panels li.panel.panel_1 div.scroll {
   border-bottom: 10px solid white;
 }
 ul.panels li.panel.panel_1 div.scroll div {
-  font: 300 18px Inter, 'Source Sans Pro', sans-serif;
+  font: 300 18px Archivo, Inter, 'Source Sans Pro', sans-serif;
   line-height: 53px;
   text-align: center;
   background: white;
@@ -293,7 +294,7 @@ ul.panels li.panel.panel_2 p {
   margin-bottom: 1.12em;
 }
 ul.panels li.panel.panel_2 h2 {
-  font: 400 2em/1em Inter, 'Source Sans Pro', sans-serif;
+  font: 400 2em/1em Archivo, Inter, 'Source Sans Pro', sans-serif;
   text-transform: none;
   text-decoration: none;
   color: #555;
@@ -405,7 +406,7 @@ ul.panels li.panel.panel_1 div.m_buttons {
 }
 
 ul.panels li.panel.panel_1 div.m_buttons h3 {
-  font: 400 24px/29px Inter, 'Source Sans Pro', sans-serif;
+  font: 400 24px/29px Archivo, Inter, 'Source Sans Pro', sans-serif;
   text-align: center;
   color: white;
 }
@@ -422,7 +423,7 @@ button.m_button {
   border: 0px;
   color: white;
   line-height: 17px;
-  font-size: 16px;
+  font-size: 24px;
   margin: 0 0 0 10px;
   cursor: pointer;
   -webkit-border-radius: 4px;
@@ -432,9 +433,8 @@ button.m_button {
   position:relative;
   left:50%;
   text-shadow: 2px 2px 4px #000000;
-  font: .8em 'JetBrains Mono', "Fira Code", Inter !important;
+  font: 1.2em 'JetBrains Mono', "Fira Code", Inter !important;
 }
-
 
 @media only screen and (max-width: 650px) {
   button.m_button {
